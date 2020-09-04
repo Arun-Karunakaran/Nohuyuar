@@ -1,0 +1,6 @@
+sphinx
+docopt
+cython
+
+[testing]
+pytest

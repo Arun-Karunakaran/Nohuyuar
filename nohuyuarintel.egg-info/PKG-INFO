@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: nohuyuarintel
+Version: 0.1
+Summary: A package for Nohuyuar Intelligence
+Home-page: UNKNOWN
+Author: ArunKarunakaran
+Author-email: nohuyuar@gmail.com
+License: Copyright 2020 ArunKarunakaran <nohuyuar@gmail.com>
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Description:                                                                      README INFO
+        
+        The idea of Human Energy Model HEM is derived out of Human Astro theories and behaviours. These theories itself are evidences proved by the New Black-hole concepts. Using the fundamental energies as basis; by vectorising the co-existence of the Planetary behaviours with that of Human Astro behaviours it helps to redefine the model of Human Energy system. This also sets the future for a promised pathway in the study and research into the existence of Atomic and Sub-atomic Human Energy Systems. Since a natural human energy system behaviours works relatively different from one individual to another. This Model design along with prototype helps to seek and evaluate the basis, constituents and working energies in an individual. The functionality and mechanism of the models thereby designed out of this redefined model of human energy system would primarily help to reform and advance the Healthcare & Education systems through AI and ML engineered models.
+        
+        First product is Nohuyuar for Education 
+        Are you tired of people saying why you are note like him, look at him how welthy he is , how great his achievements are? Are you fedup of your parents or your dears ones comparing you with other people and their potentials. Make them understand that you too have potentials and they are unique and different from others. Use Nohuyuar to help yourself understand become familiar of your true potentials, knowing which you can let others know who you are? Use Nohuyuar and let others who make comparisons of you go away. Infact everybody is unique and you too have a unique potential, understanding it better helps you too shine!!! better. Download and Install Nohuyuar to know your self better.  
+        
+                                                                      TASKS TO BE IMPLEMENTED
+        
+        1. Whenever the setup.py install is successful then a pywatchdog should automatically trigger the reposync for synching and testing it in the (mac or deployment environment) and then once that is successfull should upload that to github. This should be the process workflow for dev to deployment for core.\n
+         i. Verify for LICENSE file and package import of any files should not work without a valid license file. Also validate for the presence of correct license file. 
+         ii. Licese generated file should contains the logic to generate license based on lichostinfo details of customer the unique encoded digit generated should be stored in server and then that is used to verify with the unique digits generated when the customer imports the package in their machines.
+         ii. Put this verification step as a test. Also add other tets that are required in the form of pytest.
+        2. get info from readme.md\n
+          i. first product should be to know your self better. Education based product for customers.\n
+          ii. Second product will serve for improvising healthcare systems using HEM/HES\n
+        
+        3. create nakshtra class\n
+        4. create energy detail class\n
+        5. create compounded energy class\n
+        6. create a module for handling dasas\n
+        
+        7. create a module for mapping the qualities of each houses with that of house number. Eg. House of God or belief is 10th house. Same time house that decides ones higher education is also 10th house. So mapping different quality of houses to house number matters in deriving results and conclusions.\n 
+        
+        8. create a module for handling the calculate can be derived from math ....this is used for various calculations e.g. when Moon is in 10th house (with aspect of God and belief) it converts the quality of that house to that of Moon, and it differs with how Rahu in that house behaves. So calculating this for deriving results in important.\n
+        
+        9. It understood that each chart will have some house without planets and some with planets. When it is without planets the energy is still present and it will be a passive energy not that superior over the active energy. Whereas active energy is when some planet sits on the house it actually activates the passive energy of the house, which was earlier not a  dominant energy. This active energy also varies based on the planet that sits and the sign that the house assigns with.\n
+        
+        10. create an energy perception algorithm to perceive based on paricular energy activation based on a dasas period. This changes or gets altered based on various bukti in the dasa period. This also changes based on the energy (fixed/combination) state of an individuals chart. So the algorithm should carefully calculate results based on all these considerations.\n
+         
+        11. creare an energy perception (algorithm) , is what an individual is limited to see, observe and experience things in life based on the eenrgy activation for an energy combinations state of the chart.\n
+        
+        12. Machine learning classifications: eg: Saturn exhibits nature of toughtimes(-),obstacles(-),hardwork(neutral),disciplined(+) --> here neutral, negative and positive emotianl classifications can be determined.\n 
+        
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Apache License-2.0
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 0 - Prototype
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.7
+Provides-Extra: testing

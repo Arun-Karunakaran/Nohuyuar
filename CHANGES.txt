@@ -1,0 +1,2 @@
+Added TODO steps for licensecheck, modified license check conditions in main.py and cytonized it
+Rebuilt the setup.py to verify whether .so file is added to dist package

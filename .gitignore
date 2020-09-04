@@ -1,0 +1,8 @@
+.DS_Store
+setup.py
+main.py
+main.c
+requirements_bkp.txt
+TODO.md
+LICENSE.md
+dist/
